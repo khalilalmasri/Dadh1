@@ -79,6 +79,12 @@
     font-weight: bold;
     font-style: normal;
   }
+  @font-face {
+    font-family: "Cairo-Regular";
+    src: url("../../assets/fonts/Cairo-Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
   /* @font-face {
     font-family: "alfont_com_riyad-bank-Bold.ttf";
     src: url("../../public/asset/alfont_com_riyad-bank-Bold.ttf") format("truetype");
@@ -101,6 +107,7 @@
   .samsungThin{font-family: SamsungSans-Thin}
   .bebas{font-family: bebas}
   .d_ar{font-family: d-ar}
+  .Cairo_Regular{font-family: Cairo-Regular}
   .riyadBank{font-family: alfont_com_riyad-bank-Bold}
 
   
