@@ -22,7 +22,7 @@
             <div></div>
             <div class=" hidden sm:flex items-center justify-between " >
               <a class="sm:ml-10" href="#">Purpose</a>
-              <a class="sm:mx-10"  href="#">Platforms</a>
+              <a class="sm:mx-10"  href="">Platforms</a>
               <a class="sm:mx-10" href="#">Update</a>
               <a class="sm:mr-10" href="#">Contact</a>
             </div>
@@ -37,20 +37,30 @@
               <a href=""><div class="bg-[#ffd800] sm:w-[170px] sm:h-[40px] text-center mt-3 "> Join </div></a>
             </div>
             <!-- menu btn -->
-             <img  class="  sm:hidden w-[33px] h-[24px]" src="assets/icons/menu.svg" alt="">
+             <img id="menuIcon"  onclick="testbtn()"  class=" sm:hidden h-[24px]" src="assets/icons/menu.svg" alt="">
           </div>
+          
+          <div id="menubtn" class=" absolute top-0 bg-white opacity-70 w-4/5 hidden z-30 text-xl py-2 text-black
+          items-center justify-center text-center    mt-4   ">
+            <li class=" flex flex-col text-sm w-full  ">
+            <a class=" border-b-4" href="/dadh_ar.html">AR</a>
+            <a class="border-b-4  " href="#">Purpose</a>
+            <a class="border-b-4"  href="#">Platforms</a>
+            <a class="border-b-4" href="#">Update</a>
+            <a class="border-b-4" href="#">Contact</a>
+          </li></div>
           <!-- first slider -->
-          <div class="my-32 relative text-center " >
+          <div class=" mt-24 sm:my-32 relative text-center " >
             <img  src="assets/images/hero.svg" alt="" />
             <img class=" absolute custom_abs w-2/3 sm:w-1/2 " src="assets/images/the_map.png" alt=""/> 
-            <div class="text-center absolute custom_abs_ch text-3xl sm:text-5xl Cairo_Regular ">
+            <div class="text-center absolute custom_abs_ch text-3xl sm:text-5xl Cairo-VariableFont ">
             <p class="  " >عــــالــــم</p>
             <p class=" sm:mt-4  ">عـــربـــي</p>
             <p class=" mt-3 sm:mt-6 mb-4 sm:mb-0 ">يجـمعنـا</p>
             </div>
           </div>
           <!-- second slider -->
-           <div class="my-32 items-center flex tracking-wider justify-center  flex-col  SamsungOne-400  ">
+           <div class=" my-12 sm:my-32 text-sm mx-6 sm:mx-0 items-center flex tracking-wider justify-center  flex-col  SamsungOne-400  ">
             <img class="w-[40px] h-[40px] sm:w-[80px] sm:h-[80px] "  src="assets/icons/dadh-header.svg" alt="">
             <p class="sm:text-5xl SamsungOne-700 mt-6 font-bold "> We invest, build and develop</p>
             <p class="sm:text-5xl SamsungOne-700  mt-4 font-bold ">for a connected Arab society</p>
@@ -62,7 +72,7 @@
            
             </div>
           </div>
-           <div class="sm:flex  sm:justify-between ">
+           <div class="sm:flex text-sm  sm:justify-between ">
             <div class="text-center sm:text-start sm:mr-10 SamsungOne-400">
               <h1 class=" sm:text-3xl SamsungOne-700 mb-8  "> for a connect society.</h1>
               <p class="sm:text-lg  ">we believe in the power of connection and aim to unite Ara-</p>
@@ -82,10 +92,10 @@
               <p class="sm:text-lg mb-10  "> succeed in the digital age.</p>
             </div>
            </div>
-           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-24 rounded-lg mx-auto "> Join us</div></a>
+           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-12 sm:mt-24 rounded-lg mx-auto "> Join us</div></a>
            <!-- third slider -->
-            <div  class="sm:text-5xl items-center flex justify-center mt-32  SamsungOne-bold"> Plattforms</div>
-           <div dir="rtl" class="mt-32  flex justify-between flex-col mx-6 sm:mx-16">
+            <div  class="sm:text-5xl items-center flex justify-center mt-12 sm:mt-32  SamsungOne-bold"> Plattforms</div>
+           <div dir="rtl" class=" mt-12 sm:mt-32  flex justify-between flex-col mx-6 sm:mx-16">
             <div class="flex justify-evenly  flex-row">
               <img  class="w-[33px] h-[33px] sm:w-[135px] sm:h-[135px] "  src="assets/logo/dadh.svg" alt="">
               <img class="w-[65px] h-[33px] sm:w-[261px] sm:h-[134px] "  src="assets/logo/muhtref.svg" alt="">
@@ -100,13 +110,13 @@
             <div  class="flex sm:hidden justify-evenly mt-10 sm:mt-24 flex-row ">
               <img  class=" w-[53px] h-[23px] sm:w-[210px] sm:h-[91px] " src="assets/logo/lakta_en.svg" alt="">
             </div>
-            <div class="mt-24 mx-auto text-gray-500 sm:text-xl SamsungOne-400">more platforms will be announced soon.</div>
+            <div class="mt-2 sm:mt-24 mx-auto text-gray-500 sm:text-xl SamsungOne-400">more platforms will be announced soon.</div>
             </div>
             
 
             <!-- forth slider -->
-             <div dir="rtl" class="mt-32 z-0">
-              <div class="mt-20 sm:mt-32 relative text-center z-10 " >
+             <div dir="rtl" class=" mt-12 sm:mt-32 z-0">
+              <div class="mt-12 sm:mt-32 relative text-center z-10 " >
               <img  src="assets/images/second_hero.svg" alt="" />
               <div class="text-center absolute custom_abs_mudawana ">
               <p class=" sm:text-5xl SamsungOne-bold " >Updates</p>
@@ -116,16 +126,16 @@
               <div class=" sm:mx-auto w-1/2 sm:w-1/3 mx-4  sm:me-4 ">
                 <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
                 <p class="mt-4 sm:text-2xl text-[12px] text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
-                <p class="mt-4 text-start text-[12px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[12px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[12px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div>
               <div class="  sm:mx-auto w-1/2 sm:w-1/3 mx-2 sm:mx-6">
                 <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
                 <p class="mt-4 sm:text-2xl text-[12px] text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
-                <p class="mt-4 text-start text-[12px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[12px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[12px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div>
               
               <div class=" hidden sm:block w-4/5 sm:w-1/3 sm:ms-4 ">
@@ -137,7 +147,7 @@
               </div></div>
               <!-- form -->
                <div class="flex flex-col justify-center items-center mt-10 SamsungOne-bold">
-                <p  class="  my-10 text-3xl  sm:text-5xl fontAbsolute"> Join our news letter </p>
+                <p  class="  my-10 text-3xl  sm:text-5xl PoetsenOne"> Join our news letter </p>
                 <form
                     class=" flex flex-col text-center justify-center gap-2 w-2/3 sm:w-1/3"
                     onSubmit={handleSubmit}
