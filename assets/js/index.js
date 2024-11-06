@@ -16,7 +16,13 @@ function testbtn() {
     menuIcon.classList.remove("active_arrow");
     menuIcon.classList.add("active_menuarrow");
     menuIcon.attributes.src.value = "assets/icons/menu.svg";
-    
   }
 }
 // menuIcon.addEventListener("click", testbtn)
+function thescroll(to) {
+  window.scrollTo({
+    top: to,
+    behavior: "smooth",
+  });
+  testbtn();
+}

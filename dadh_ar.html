@@ -6,14 +6,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Dadh</title>
     <link rel="stylesheet" href="/assets/css/fonts.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
   </head>
   <body dir="rtl">
     
-    <div class="container sm:mx-auto Cairo_Regular max-w-[1250px]" >
+    <div class="container sm:mx-auto ReadexPro max-w-[1250px]" >
         <!-- color line -->
         <img src="assets/images/line.svg" alt="">
         <!-- main header container -->
-        <div class=" Cairo-VariableFont mt-4 sm:my-3 mx-8 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex flex-row justify-between  sm:leading-9 ">
+        <div class="  mt-4 sm:my-3 mx-8 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex flex-row justify-between  sm:leading-9 ">
             <!-- logo -->
           <div class="flex items-center font-bold">
               <img class="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] " src="assets/icons/dadh-header.svg" alt="dadh logo"/>
@@ -21,10 +22,10 @@
             </div>
             <div></div>
             <div class="hidden sm:flex items-center justify-between  " >
-              <a class="ml-10" href="#">الغـاية</a>
-              <a class="mx-10"  href="#">المنصات</a>
-              <a class="mx-10" href="#">المُدونة</a>
-              <a class="mr-10" href="#">تواصل</a>
+              <a class="ml-10 cursor-pointer " onclick="thescroll()">الغـاية</a>
+              <a class = "mx-10 cursor-pointer "  onclick="thescroll(1750)">المنصات</a>
+              <a class="mx-10 cursor-pointer " onclick="thescroll(2550)">المُدونة</a>
+              <a class="mr-10 cursor-pointer "onclick="thescroll(4000)">تواصل</a>
             </div>
             <div></div>
             <!-- language btn -->
@@ -40,20 +41,20 @@
              <img id="menuIcon"  onclick="testbtn()"  class=" sm:hidden h-[24px]" src="assets/icons/menu.svg" alt="">
           </div>
           
-          <div id="menubtn" class=" absolute top-0 bg-white opacity-85 w-4/5 hidden z-30 text-xl py-2 text-black
-          items-center justify-center text-center    mt-4   ">
-            <li class=" flex flex-col text-sm w-full Cairo-VariableFont ">
-            <a class=" border-b-2" href="/index.html">EN</a>
-            <a class="border-b-2  " href="#">الغـاية</a>
-            <a class="border-b-2"  href="#">المنصات</a>
-            <a class="border-b-2" href="#">المُدونة</a>
-            <a class="border-b-2" href="#">تواصل</a>
+          <div id="menubtn" class=" sm:hidden absolute top-0 bg-white opacity-85 w-4/5 hidden z-30 text-xl py-2 text-black
+          items-center justify-center text-center mt-4   ">
+            <li class=" sm:hidden flex flex-col text-sm w-full  ">
+            <a class=" border-b-2 " href="/index.html">EN</a>
+            <a class="border-b-2  cursor-pointer "onclick="thescroll()">الغـاية</a>
+            <a class="border-b-2 cursor-pointer "  onclick="thescroll(1200)">المنصات</a>
+            <a class="border-b-2 cursor-pointer " onclick="thescroll(1400)">المُدونة</a>
+            <a class="border-b-2 cursor-pointer "onclick="thescroll(4000)">تواصل</a>
           </li></div> 
           <!-- first slider -->
           <div class="mt-24 sm:my-32 relative text-center " >
             <img  src="assets/images/hero.svg" alt="" />
             <img class=" absolute custom_abs w-2/3 sm:w-1/2 " src="assets/images/the_map.png" alt=""/> 
-            <div class="text-center absolute custom_abs_ch text-3xl sm:text-5xl Cairo-VariableFont  ">
+            <div class="text-center absolute custom_abs_ch text-3xl sm:text-5xl   ">
             <p class="  " >عــــالــــم</p>
             <p class=" sm:mt-4  ">عـــربـــي</p>
             <p class=" mt-3 sm:mt-6 mb-4 sm:mb-0 ">يجـمعنـا</p>
@@ -62,9 +63,9 @@
           <!-- second slider -->
            <div class="my-12 sm:my-32 text-sm mx-6 sm:mx-0 items-center flex  justify-center flex-col">
             <img src="assets/icons/dadh-header.svg" alt="">
-            <p class=" text-3xl sm:text-5xl mt-6 Cairo-VariableFont ">نحـن نسـتثمر، نبنـي ونطـور</p>
-            <p class="text-3xl sm:text-5xl mt-4 Cairo-VariableFont ">لأجل مُجتمع عربي مُترابـط</p>
-            <div class=" mx-4 sm:mx-0 text-center">
+            <p class=" text-3xl sm:text-5xl mt-6  ">نحـن نسـتثمر، نبنـي ونطـور</p>
+            <p class="text-3xl sm:text-5xl mt-4  ">لأجل مُجتمع عربي مُترابـط</p>
+            <div class=" mx-4 sm:mx-0 text-center Cairo_Regular">
             <p class="sm:text-xl   mt-8 ">نسعى لربط المجتمع الناطق بالعربية في جميع انحاء العالم من خلال الابتكار والتكنولوجيا لتعزيز الوحدة والتمكين والنمو </p>
             <p class="sm:text-xl sm:mt-2   ">نستثمر في بناء مجتمع عربي متماسك من خلال انشاء منصات ومنتجات رقمية تلبي الاحتياجات المتنوعة لمجتمعنا , وتعزز </p>
             <p class="sm:text-xl sm:mt-2   ">التواصل والتعاون والفرص عبر الحدود </p>
@@ -72,39 +73,39 @@
           </div>
            <div class="sm:flex text-sm  sm:justify-between ">
             <div class="text-center sm:text-start sm:me-10  ">
-              <h1 class=" text-2xl sm:text-3xl  mb-8 Cairo-VariableFont "> لأجل مُجتمع مُترابـط</h1>
-              <p class="hidden sm:block text-lg  ">نؤمن بقوة التواصل ونهدف إلى توحيد الأفراد الناطقين باللغة العربية في جميع أنحاء </p>
-              <p class="hidden sm:block text-lg  ">العالم تحت مظلة رقمية واحدة، وتعزيز التبادل الثقافي والتعاون. من خلال تجاوز</p>
-              <p class="hidden sm:block text-lg  mb-10  ">الحدود الجغرافية، نعمل على تمكين وتنمية مجتمع عربي متصل ومزدهر عالميًا.
+              <h1 class=" text-2xl sm:text-3xl  mb-8  "> لأجل مُجتمع مُترابـط</h1>
+              <p class="hidden Cairo_Regular sm:block text-lg  ">نؤمن بقوة التواصل ونهدف إلى توحيد الأفراد الناطقين باللغة العربية في جميع أنحاء </p>
+              <p class="hidden Cairo_Regular sm:block text-lg  ">العالم تحت مظلة رقمية واحدة، وتعزيز التبادل الثقافي والتعاون. من خلال تجاوز</p>
+              <p class="hidden Cairo_Regular sm:block text-lg  mb-10  ">الحدود الجغرافية، نعمل على تمكين وتنمية مجتمع عربي متصل ومزدهر عالميًا.
               </p>
-              <p class="sm:hidden">نؤمن بقوة التواصل ونهدف إلى توحيد الأفراد الناطقين باللغة العربية  </p>
-              <p class="sm:hidden">في جميع أنحاء العالم تحت مظلة رقمية واحدة، وتعزيز التبادل الثقافي </p>
-              <p class="sm:hidden">  وتجاوز
+              <p class="sm:hidden Cairo_Regular">نؤمن بقوة التواصل ونهدف إلى توحيد الأفراد الناطقين باللغة العربية  </p>
+              <p class="sm:hidden Cairo_Regular">في جميع أنحاء العالم تحت مظلة رقمية واحدة، وتعزيز التبادل الثقافي </p>
+              <p class="sm:hidden Cairo_Regular">  وتجاوز
                 الحدود الجغرافية، نعمل على تمكين وتنمية مجتمع عربي </p>
-              <p class="sm:hidden mb-10">    عالمي مُترابط ومزدهر  .</p>
+              <p class="sm:hidden Cairo_Regular mb-10">    عالمي مُترابط ومزدهر  .</p>
 
             </div>
             <div class="text-center sm:text-start sm:me-10 ">
-              <h1 class=" text-2xl sm:text-3xl  mb-8 Cairo-VariableFont  "> الابتكار من أجل التأثير المجتمعي
+              <h1 class=" text-2xl sm:text-3xl  mb-8  "> الابتكار من أجل التأثير المجتمعي
               </h1>
-              <p class="hidden sm:block text-lg ">نستثمر في التكنولوجيا والابتكار لمعالجة التحديات المجتمعية في العالم العربي،</p>
-              <p class="hidden sm:block text-lg ">وتعزيز التنمية الاجتماعية، ودعم حرية التعبير، وتوفير فرص التعليم للجميع. </p>
-              <p class="hidden sm:block text-lg "> و تمكين الأفراد والشركات في جميع أنحاء العالم الناطق باللغة العربية لإطلاق </p>
-              <p class="hidden sm:block text-lg mb-10 "> العنان لإمكاناتهم والنجاح في العصر الرقمي.
+              <p class="hidden sm:block text-lg Cairo_Regular ">نستثمر في التكنولوجيا والابتكار لمعالجة التحديات المجتمعية في العالم العربي،</p>
+              <p class="hidden sm:block text-lg Cairo_Regular ">وتعزيز التنمية الاجتماعية، ودعم حرية التعبير، وتوفير فرص التعليم للجميع. </p>
+              <p class="hidden sm:block text-lg Cairo_Regular "> و تمكين الأفراد والشركات في جميع أنحاء العالم الناطق باللغة العربية لإطلاق </p>
+              <p class="hidden sm:block text-lg Cairo_Regular mb-10 "> العنان لإمكاناتهم والنجاح في العصر الرقمي.
               </p>
               
-              <p class="sm:hidden ">نستثمر في التكنولوجيا والابتكار لمعالجة التحديات المجتمعية في</p>
-              <p class="sm:hidden ">لعالم العربي،وتعزيز التنمية الاجتماعية، ودعم حرية التعبير، وتوفير. </p>
-              <p class="sm:hidden "> فرص التعليم للجميع.  و تمكين الأفراد والشركات في جميع أنحاء  </p>
-              <p class="sm:hidden ">العالم الناطق باللغة العربية لإطلاق العنان لإمكاناتهم والنجاح في</p>
-              <p class="sm:hidden  mb-10 "> العصر الرقمي.</p>
+              <p class="sm:hidden Cairo_Regular ">نستثمر في التكنولوجيا والابتكار لمعالجة التحديات المجتمعية في</p>
+              <p class="sm:hidden Cairo_Regular ">لعالم العربي،وتعزيز التنمية الاجتماعية، ودعم حرية التعبير، وتوفير. </p>
+              <p class="sm:hidden Cairo_Regular "> فرص التعليم للجميع.  و تمكين الأفراد والشركات في جميع أنحاء  </p>
+              <p class="sm:hidden Cairo_Regular ">العالم الناطق باللغة العربية لإطلاق العنان لإمكاناتهم والنجاح في</p>
+              <p class="sm:hidden Cairo_Regular  mb-10 "> العصر الرقمي.</p>
               
             </div>
            </div>
-           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-12 sm:mt-24 rounded-lg mx-auto Cairo-VariableFont "> انضم للحراك</div></a>
+           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-12 sm:mt-24 rounded-lg mx-auto  "> انضم للحراك</div></a>
 
            <!-- third slider -->
-            <div class="sm:text-5xl items-center flex justify-center mt-12 sm:mt-32 Cairo-VariableFont">منصات ضاد</div>
+            <div class="sm:text-5xl items-center flex justify-center mt-12 sm:mt-32 ">منصات ضاد</div>
             <div dir="rtl" class="mt-12 sm:mt-32  flex justify-between flex-col mx-6 sm:mx-16">
               <div class="flex justify-evenly  flex-row">
                 <img  class="w-[33px] h-[33px] sm:w-[135px] sm:h-[135px] "  src="assets/logo/dadh.svg" alt="">
@@ -128,20 +129,20 @@
               <div class="mt-12 sm:mt-32 relative text-center z-10 " >
               <img  src="assets/images/second_hero.svg" alt="" />
               <div class="text-center absolute custom_abs_mudawana ">
-              <p class=" sm:text-5xl Cairo-VariableFont " >التحديثات</p>
+              <p class=" sm:text-5xl  " >التحديثات</p>
               </div>
             </div>
             <div class=" mx-4 sm:mx-0  flex relative justify-between flex-row mt-[-20px] sm:mt-[-100px] z-20 ">
               <div class=" sm:mx-auto w-1/2 sm:w-1/3 mx-4  sm:me-4 ">
                 <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
-                <p class="mt-4 sm:text-2xl text-[12px] Cairo-VariableFont text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 sm:text-2xl text-[12px]  text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
                 <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div>
               <div class="  sm:mx-auto w-1/2 sm:w-1/3 mx-2 sm:mx-6">
                 <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
-                <p class="mt-4 sm:text-2xl text-[12px] Cairo-VariableFont text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 sm:text-2xl text-[12px]  text-start text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
                 <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
@@ -149,13 +150,13 @@
               
               <div class=" hidden sm:block w-4/5 sm:w-1/3 sm:ms-4 ">
                 <div class="bg-[#fcfae0] h-[300px] rounded-lg"></div>
-                <p class="mt-4 text-2xl text-start Cairo-VariableFont text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 text-2xl text-start  text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
                 <p class="mt-4 text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div></div>
               <!-- form -->
-               <div class=" Cairo-VariableFont flex flex-col justify-center items-center mt-10">
+               <div class="  flex flex-col justify-center items-center mt-10">
                 <p  class="  my-10  text-5xl d_ar">انضم للنشرة البريدية</p>
                 <form
                     class=" flex flex-col text-center justify-center gap-2 w-2/3 sm:w-1/3"
@@ -184,26 +185,27 @@
                
                </div>
                <!-- footer -->
-               <div dir="rtl" class="  mt-20 sm:mt-32 flex flex-row relative ">
+               <div  class=" mt-20 sm:mt-32 flex flex-row relative ">
                 <img class="absolute hidden sm:block  custom_abs_footer z-10" src="assets/images/the-end.svg" alt="">
                 <img class="absolute sm:hidden block custom_abs_footersmall z-10" src="assets/images/the-end.svg" alt="">
-              <div class="sm:w-1/4 w-1/2 text-[10px] sm:text-sm  mt-20 ">
+              <div class=" hidden sm:block sm:w-1/4 w-1/2 text-[10px] sm:text-sm  mt-20 ">
                 <p>©ضاد 2024. جميع الحقوق محفوظة</p>
               </div>
-              <div class=" w-1/5   flex  p-2 rounded-b-2xl text-center justify-center"></div>
-              <div class="w-1/4   flex flex-col items-center">
-                <p class="text-center text-2xl sm:text-3xl d_ar mb-4 fontAbsolute" >follow us on </p>
+              <div class=" w-1/3 sm:w-1/5   flex  p-2 rounded-b-2xl text-center justify-center"></div>
+              <div class=" w-1/2 sm:w-1/4   flex flex-col items-center">
+                <p class="text-center text-2xl sm:text-3xl d_ar mb-4 " >تابعنا على : </p>
                 <!-- icons -->
-                <div class="flex justify-center gap-1 mb-10 z-20 "> 
+                <div class="flex justify-center gap-1 mb-6 sm:mb-12 z-20 "> 
                   <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/insta.svg" alt="">
                   <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/linkedin.svg" alt="">
                   <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/face.svg" alt="">
                   <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/x.svg" alt="">
                   <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/dadh_black.svg" alt="">
                 </div>
+                <p class=" sm:hidden text-[12px] Cairo_Regular " >©ضاد 2024. جميع الحقوق محفوظة</p>
               </div>
-              <div class=" hidden sm:block  w-1/5  flex  p-2 rounded-b-2xl text-center justify-center"></div>
-              <div class=" sm:w-1/4 w-1/2 text-[10px] sm:text-sm  mt-20 ">
+              <div class="   sm:w-1/5  flex  p-2 rounded-b-2xl text-center justify-center"></div>
+              <div class=" w-1/4 w-1/2 text-[10px] sm:text-sm  mt-20 ">
                 <!-- <p  dir="ltr">© 2024 Dadh inc, All rights reserved.</p> -->
               </div>
               </div>

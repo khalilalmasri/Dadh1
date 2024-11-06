@@ -1,74 +1,21 @@
-@font-face {
-    font-family: 'AbsoluteRegular';
-    src: url('../../assets/fonts/TheAbsoluteRegular.woff') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'SamsungSans-Regular';
-    src: url('../../assets/fonts/SamsungSans-Regular.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
+
   @font-face {
     font-family: 'SamsungSans-Bold';
     src: url('../../assets/fonts/SamsungSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
-  @font-face {
-    font-family: 'SamsungSans-Light';
-    src: url('../../assets/fonts/SamsungSans-Light.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'SamsungSans-Thin';
-    src: url('../../assets/fonts/SamsungSans-Thin.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'bebas';
-    src: url('../../assets/fonts/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
+
   @font-face {
     font-family: 'SamsungOne_400';
     src: url('../../assets/fonts/SamsungOne-400.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
-  @font-face {
-    font-family: 'SamsungOne_700';
-    src: url('../../assets/fonts/SamsungOne-700.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'SamsungSharpSans-Bold';
-    src: url('../../assets/fonts/SamsungSharpSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'SamsungSans-Bold';
-    src: url('../../assets/fonts/SamsungSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
+
   @font-face {
     font-family: 'AbsoluteRegular';
     src: url('../../assets/fonts/TheAbsoluteRegular.woff') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "alfont_com_riyad-bank-Bold";
-    src: url("../../assets/fonts/alfont_com_riyad-bank-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
   }
@@ -91,45 +38,24 @@
     font-weight: bold;
     font-style: normal;
   }
-  @font-face {
-    font-family: "PoetsenOne-Regular";
-    src: url("../../assets/fonts/PoetsenOne-Regular.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
+
   @font-face {
     font-family: "Cairo-VariableFont";
     src: url("../../assets/fonts/Cairo-VariableFont_slnt,wght.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
   }
-  /* @font-face {
-    font-family: "alfont_com_riyad-bank-Bold.ttf";
-    src: url("../../public/asset/alfont_com_riyad-bank-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  } */
 
 
 
 
 
-  /* .riyad-bank{font-family: "alfont_com_riyad-bank-Bold.ttf"} */
+
   .SamsungOne-400{font-family: SamsungOne_400}
-  .SamsungOne-700{font-family: SamsungOne_700}
-  .SamsungOne-bold{font-family: SamsungSharpSans-Bold}
-  .fontAbsolute{font-family: AbsoluteRegular}
-  .samsungRegular{font-family: SamsungSans-Regular}
-  .samsungBold{font-family: SamsungSans-Bold}
-  .samsungLight{font-family: SamsungSans-Light}
-  .samsungThin{font-family: SamsungSans-Thin}
-  .bebas{font-family: bebas}
   .d_ar{font-family: d-ar}
   .Cairo_Regular{font-family: Cairo-Regular}
   .Cairo-VariableFont{font-family: Cairo-VariableFont}
-  .riyadBank{font-family: alfont_com_riyad-bank-Bold}
   .ReadexPro{font-family:ReadexPro-VariableFont}
-  .PoetsenOne{font-family:PoetsenOne-Regular}
 
   
   
