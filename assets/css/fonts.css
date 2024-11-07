@@ -35,7 +35,7 @@
   @font-face {
     font-family: "ReadexPro-VariableFont";
     src: url("../../assets/fonts/ReadexPro-VariableFont_HEXP,wght.ttf") format("truetype");
-    font-weight: bold;
+    font-weight: 300 ;
     font-style: normal;
   }
 
@@ -81,7 +81,7 @@ left: 50%;
 
 }
 .custom_abs_footersmall{
-  top: 30%;
+  top: 20%;
   left: 10%;
   /* right: 30%; */
 

@@ -14,11 +14,11 @@
         <!-- color line -->
         <img src="assets/images/line.svg" alt="">
         <!-- main header container -->
-        <div class=" mt-4 sm:my-3 mx-8 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex flex-row justify-between  sm:leading-9 ">
+        <div class="  mt-4 sm:my-3 mx-8 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex flex-row justify-between  sm:leading-9 ">
             <!-- logo -->
           <div class="flex items-center  ">
               <img class="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] " src="assets/icons/dadh-header.svg" alt="dadh logo"/>
-              <span class="text-[#f8af00] text-xl sm:text-5xl m-1 sm:m-5">Dadh</span>
+              <span class=" font-bold  text-[#f8af00] text-xl sm:text-5xl m-1 sm:m-5">Dadh</span>
             </div>
             <div></div>
             <div class=" hidden sm:flex items-center justify-between " >
@@ -38,10 +38,10 @@
               <a href=""><div class="bg-[#ffd800] sm:w-[170px] sm:h-[40px] text-center mt-3 "> Join </div></a>
             </div>
             <!-- menu btn -->
-             <img id="menuIcon"  onclick="testbtn()"  class=" sm:hidden h-[24px]" src="assets/icons/menu.svg" alt="">
+             <img id="menuIcon"  onclick="testbtn()"  class=" sm:hidden h-[24px] z-50 absolute top-8 end-8" src="assets/icons/menu.svg" alt="">
           </div>
           
-          <div id="menubtn" class=" sm:hidden absolute top-0 bg-white opacity-85 w-4/5 hidden z-30 text-xl py-2 text-black
+          <div id="menubtn" class=" sm:hidden absolute top-0 bg-white opacity-85 w-full hidden z-30 text-xl py-2 text-black
           items-center justify-center text-center    mt-4   ">
             <li class=" sm:hidden flex flex-col text-sm w-full  ">
             <a class=" border-b-2" href="/dadh_ar.html">AR</a>
@@ -51,39 +51,49 @@
             <a class="border-b-2  cursor-pointer "onclick="thescroll(4000)">Contact</a>
           </li></div>
           <!-- first slider -->
-          <div class=" mt-24 sm:my-32 relative text-center " >
+          <div class=" font-bold mt-24 sm:my-32 relative text-center " >
             <img  src="assets/images/hero.svg" alt="" />
             <img class=" absolute custom_abs w-2/3 sm:w-1/2 " src="assets/images/the_map.png" alt=""/> 
-            <div class="text-center absolute custom_abs_ch text-3xl sm:text-5xl Cairo-VariableFont ">
-            <p class="  " >عــــالــــم</p>
-            <p class=" sm:mt-4  ">عـــربـــي</p>
-            <p class=" mt-3 sm:mt-6 mb-4 sm:mb-0 ">يجـمعنـا</p>
-            </div>
+            <div class="text-center  absolute custom_abs_ch text-xl sm:text-5xl   ">
+              <p >عــــــــــــــــــــالــــــــــــــــم</p>
+              <p class=" sm:mt-4  ">عـــــــــــربــــــــــــــــــــي</p>
+              <p class=" mt-3 sm:mt-6 mb-4 sm:mb-0 ">يجـــــــــمعنـــــــــا</p>
+              </div> 
           </div>
           <!-- second slider -->
-           <div class=" my-12 sm:my-32 text-sm mx-6 sm:mx-0 items-center flex tracking-wider justify-center  flex-col SamsungOne-400   ">
+           <div class=" my-12  sm:my-32 text-sm mx-6 sm:mx-0 items-center flex tracking-wider justify-center  flex-col ">
             <img class="w-[40px] h-[40px] sm:w-[80px] sm:h-[80px] "  src="assets/icons/dadh-header.svg" alt="">
-            <p class="sm:text-5xl  mt-6 ReadexPro "> We invest, build and develop</p>
-            <p class="sm:text-5xl   mt-4 ReadexPro ">for a connected Arab society</p>
-            <div class="text-center ">
+            <p class="sm:text-5xl text-xl mt-6 font-bold "> We invest, build and develop</p>
+            <p class="sm:text-5xl text-xl  mt-4 font-bold ">for a connected Arab society</p>
+            <div class="text-center text-sm ">
             <p class="sm:text-xl mt-8 ">We aim to connect the Arabic-speaking community worldwide through innovation and technology to </p>
-            <p class="sm:text-xl sm:mt-2">promote unity, empowerment, and growth. We invest in building a cohesive Arab community by creating </p>
-            <p class="sm:text-xl sm:mt-2">digital platforms and products that meet the diverse needs of our society, enhancing communication, </p>
-            <p class="sm:text-xl  mt-2"> collaboration, and opportunities across borders.</p>
+            <p class="sm:text-xl  sm:mt-2">promote unity, empowerment, and growth. We invest in building a cohesive Arab community by creating </p>
+            <p class="sm:text-xl  sm:mt-2">digital platforms and products that meet the diverse needs of our society, enhancing communication, </p>
+            <p class="sm:text-xl   sm:mt-2"> collaboration, and opportunities across borders.</p>
            
             </div>
           </div>
-           <div class="sm:flex text-sm  sm:justify-between ">
-            <div class="text-center sm:text-start sm:mr-10 SamsungOne-400">
-              <h1 class=" sm:text-3xl ReadexPro mb-8  "> for a connect society.</h1>
+           <div class="sm:flex  text-[14px]   sm:justify-between ">
+            <div class=" hidden sm:block  text-start mr-10 ">
+              <h1 class=" sm:text-3xl text-xl ReadexPro mb-8 font-bold "> for a connect society.</h1>
               <p class="sm:text-lg  ">we believe in the power of connection and aim to unite Ara-</p>
               <p class="sm:text-lg  ">bic-speaking individuals worldwide under a single digital umbrella,</p>
               <p class="sm:text-lg  ">fostering cultural exchange and collaboration. By transcending </p>
               <p class="sm:text-lg  ">geographical boundaries, we empower and cultivate a globally </p>
               <p class="sm:text-lg mb-10  ">connected and thriving Arab community.</p>
             </div>
-            <div class=" text-center sm:text-start sm:mr-10 SamsungOne-400">
-              <h1 class=" sm:text-3xl ReadexPro mb-8  "> Innovation for social impact.
+            <div class="text-center  sm:hidden mb-10 ">
+              <h1 class=" sm:text-3xl text-xl ReadexPro mb-6 font-bold "> for a connect society.</h1>
+              <p > we believe in the power of connection and aim to </p>
+              <p >unite Ara-bic-speaking individuals worldwide under </p>
+              <p > a single digital umbrella, fostering cultural exchange  </p>
+              <p >and collaboration. By transcending geographical   </p>
+              <p>boundaries, we empower and cultivate a  </p>
+              <p >globally connected and thriving Arab community. </p>
+            </div>
+
+            <div class=" hidden sm:block text-center sm:text-start sm:mr-10 ">
+              <h1 class="  sm:text-3xl text-xl ReadexPro mb-8 font-bold "> Innovation for social impact.
               </h1>
               <p class="sm:text-lg  ">We invest in technology and innovation to address societal chal-</p>
               <p class="sm:text-lg  ">lenges in the Arab world, fostering social development, supporting</p>
@@ -92,26 +102,37 @@
               <p class="sm:text-lg  "> es across the Arabic-speaking world to unlock their potential and </p>
               <p class="sm:text-lg mb-10  "> succeed in the digital age.</p>
             </div>
+            <div class=" text-center  sm:hidden   mb-10  ">
+              <h1 class=" sm:text-3xl text-xl ReadexPro mb-6 font-bold "> Innovation for social impact.
+              </h1>
+              <p >We invest in technology and innovation to address </p>
+              <p >societal chal-lenges in the Arab world, fostering social</p>
+              <p > development, supporting freedom of expression, and  </p>
+              <p >providing access to education and op-portunities for all.  </p>
+              <p >Our goal is to empower individuals and business-es  </p>
+              <p>  across the Arabic-speaking world to unlock their </p>
+              <p class="sm:text-lg mb-10 "> potential and succeed in the digital age.</p>
+            </div>
            </div>
-           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-12 sm:mt-24 rounded-lg mx-auto  "> Join us</div></a>
+           <a href=""><div><div class="border-2 border-black w-1/3 sm:w-[170px] sm:h-[40px] text-center items-center flex justify-center mt-12 sm:mt-24 rounded-lg mx-auto  "> Join </div></a>
            <!-- third slider -->
-            <div  class="sm:text-5xl items-center flex justify-center mt-12 sm:mt-32  "> Plattforms</div>
+            <div  class="sm:text-5xl items-center flex justify-center mt-32 font-bold "> Plattforms</div>
            <div dir="rtl" class=" mt-12 sm:mt-32  flex justify-between flex-col mx-6 sm:mx-16">
             <div class="flex justify-evenly  flex-row">
-              <img  class="w-[33px] h-[33px] sm:w-[135px] sm:h-[135px] "  src="assets/logo/dadh.svg" alt="">
-              <img class="w-[65px] h-[33px] sm:w-[261px] sm:h-[134px] "  src="assets/logo/muhtref.svg" alt="">
-              <img class="hidden sm:block w-[62px] h-[27px] sm:w-[250px] sm:h-[109px] "  src="assets/logo/dukanji.svg" alt="">
+              <img  class="w-[67px] h-[67px] ms-6 sm:ms-0 sm:w-[135px] sm:h-[135px] "  src="assets/logo/dadh.svg" alt="">
+              <img class="w-[130px] h-[67px] ms-6 sm:ms-0 sm:w-[261px] sm:h-[134px] "  src="assets/logo/muhtref.svg" alt="">
+              <img class="hidden sm:block w-[125px] h-[55px] sm:w-[250px] sm:h-[109px] "  src="assets/logo/dukanji.svg" alt="">
               
             </div>
             <div  class="flex justify-evenly mt-10 sm:mt-24 flex-row ">
-              <img class="block sm:hidden  w-[62px] h-[27px] sm:w-[250px] sm:h-[109px] "  src="assets/logo/dukanji.svg" alt="">
-              <img  class=" hidden sm:block w-[53px] h-[23px] sm:w-[210px] sm:h-[91px] " src="assets/logo/lakta_en.svg" alt="">
-              <img class="w-[62px] h-[26px] sm:w-[251px] sm:h-[103px] "  src="assets/logo/marifaa.svg" alt="">
+              <img class="block sm:hidden  w-[125px] h-[55px] sm:w-[250px] sm:h-[109px] "  src="assets/logo/dukanji.svg" alt="">
+              <img  class=" hidden sm:block w-[105px] h-[45px] sm:w-[210px] sm:h-[91px] " src="assets/logo/lakta_en.svg" alt="">
+              <img class="w-[125px] h-[51px] sm:w-[251px] sm:h-[103px] "  src="assets/logo/marifaa.svg" alt="">
             </div>
             <div  class="flex sm:hidden justify-evenly mt-10 sm:mt-24 flex-row ">
-              <img  class=" w-[53px] h-[23px] sm:w-[210px] sm:h-[91px] " src="assets/logo/lakta_en.svg" alt="">
+              <img  class=" w-[105px] h-[45px] sm:w-[210px] sm:h-[91px] " src="assets/logo/lakta_en.svg" alt="">
             </div>
-            <div class="mt-2 sm:mt-24 mx-auto text-gray-500 sm:text-xl SamsungOne-400">more platforms will be announced soon.</div>
+            <div dir="ltr" class="mt-4 sm:mt-24 mx-auto text-gray-500 text-[12px] sm:text-xl font-bold ">more platforms will be announced soon.</div>
             </div>
             
 
@@ -120,35 +141,35 @@
               <div class="mt-12 sm:mt-32 relative text-center z-10 " >
               <img  src="assets/images/second_hero.svg" alt="" />
               <div class="text-center absolute custom_abs_mudawana ">
-              <p class=" sm:text-5xl  " >Updates</p>
+              <p class=" sm:text-5xl font-bold " >Updates</p>
               </div>
             </div>
-            <div class=" mx-4 sm:mx-0  flex relative justify-between flex-row mt-[-20px] sm:mt-[-100px] z-20 ">
+            <div class="  mx-4 sm:mx-0 font-bold flex relative justify-between flex-row mt-[-40px] sm:mt-[-100px] z-20 ">
               <div class=" sm:mx-auto w-1/2 sm:w-1/3 mx-4  sm:me-4 ">
-                <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
-                <p class="mt-4 sm:text-2xl text-[12px] text-start Cairo-VariableFont text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
-                <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <div class="bg-[#fcfae0] h-[150px] sm:h-[300px] rounded-lg"></div>
+                <p class="mt-4 sm:text-2xl text-[12px] text-start font-bold text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 text-start text-[8px]  sm:text-xl  text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[8px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[8px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div>
               <div class="  sm:mx-auto w-1/2 sm:w-1/3 mx-2 sm:mx-6">
-                <div class="bg-[#fcfae0] h-[200px] sm:h-[300px] rounded-lg"></div>
-                <p class="mt-4 sm:text-2xl text-[12px] text-start Cairo-VariableFont text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
-                <p class="mt-4 text-start text-[10px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
-                <p class="text-start sm:text-xl text-[10px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <div class="bg-[#fcfae0] h-[150px] sm:h-[300px] rounded-lg"></div>
+                <p class="mt-4 sm:text-2xl text-[12px] text-start font-bold text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 text-start text-[8px]  sm:text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[8px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
+                <p class="text-start sm:text-xl text-[8px] text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div>
               
               <div class=" hidden sm:block w-4/5 sm:w-1/3 sm:ms-4 ">
                 <div class="bg-[#fcfae0] h-[300px] rounded-lg"></div>
-                <p class="mt-4 text-2xl text-start Cairo-VariableFont text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
+                <p class="mt-4 text-2xl text-start font-bold text-[#ffb933]">ضاد تستحوذ على مواعيد</p>
                 <p class="mt-4 text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
                 <p class="text-start text-xl text-[#414141]">استحوذت مجموعة ضاد على منصة مواعيد</p>
               </div></div>
               <!-- form -->
-               <div class="flex flex-col justify-center items-center mt-10 ">
-                <p  class="  my-10 text-3xl  sm:text-5xl "> Join our news letter </p>
+               <div class="flex font-bold flex-col justify-center items-center mt-10 ">
+                <p  class="  my-10 text-2xl  sm:text-4xl "> Join our news letter </p>
                 <form
                     class=" flex flex-col text-center justify-center gap-2 w-2/3 sm:w-1/3"
                     onSubmit={handleSubmit}
@@ -176,7 +197,7 @@
                
                </div>
                <!-- footer -->
-                <div dir="rtl" class="  mt-20 sm:mt-32 flex flex-row relative ">
+                <div dir="rtl" class=" font-bold  mt-12 sm:mt-32 flex flex-row relative ">
                   <img class="absolute hidden sm:block  custom_abs_footer z-0" src="assets/images/the-end.svg" alt="">
                   <img class="absolute sm:hidden block custom_abs_footersmall z-0" src="assets/images/the-end.svg" alt="">
                 <div class="sm:w-1/4 sm:mt-20 z-10 ">
@@ -184,16 +205,16 @@
                 </div>
                 <div class=" w-1/5   flex  p-2 rounded-b-2xl text-center justify-center"></div>
                 <div class="sm:w-1/4   flex flex-col items-center">
-                  <p class="text-center sm:text-2xl sm:text-3xl mb-4 " >follow us on </p>
+                  <p class="text-center  sm:text-2xl mb-4 " >follow us on </p>
                   <!-- icons -->
-                  <div class="flex justify-center gap-1 mb-4 sm:mb-10 z-20 "> 
+                  <div class="flex justify-center gap-1 mb-4 sm:mb-12 z-20 "> 
                     <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/insta.svg" alt="">
                     <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/linkedin.svg" alt="">
                     <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/face.svg" alt="">
                     <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/x.svg" alt="">
                     <img class="w-[20px] h-[20px] sm:w-[35px] sm:h-[35px]" src="assets/icons/dadh_black.svg" alt="">
                   </div>
-                  <p dir="ltr" class=" sm:hidden text-sm">© 2024 Dadh inc, All rights reserved.</p>
+                  <p dir="ltr" class=" sm:hidden z-30 mb-2 text-sm">© 2024 Dadh inc, All rights reserved.</p>
                 </div>
                 <div class=" hidden sm:block  w-1/5  flex  p-2 rounded-b-2xl text-center justify-center"></div>
                 <div class="hidden sm:block sm:w-1/4 w-1/2 text-[10px] sm:text-sm  mt-20 ">
@@ -207,7 +228,7 @@
             
           
         </div>
-      </div><div class=" z-40 border-4 w-full border-[#ffd907]"></div>
+      </div><div class=" absolute z-10 border-4 w-full border-[#ffd907]"></div>
     <script src="/assets/js/index.js"></script>
   </body>
 </html>
