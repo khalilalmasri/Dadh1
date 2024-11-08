@@ -1,6 +1,17 @@
+
 .custom_abs{
     top: 30%;
   left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom_abs_sm{
+    top: 25%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .custom_abs_image_sm{
+    top: 100%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   .small_custom_abs{
@@ -9,6 +20,11 @@
     transform: translate(-50%, -50%);
   }
   .custom_abs_ch{
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom_abs_ch_sm{
   top: 50%;
   left: 50%;
     transform: translate(-50%, -50%);
@@ -25,19 +41,19 @@ left: 50%;
 
 }
 .custom_abs_footersmall{
-  top: 30%;
-  left: 10%;
+  top: -25%;
+  /* left: -10%; */
   /* right: 30%; */
 
 }
 
 .active_menu{
-  animation: mymove 0.5s ;
-  -webkit-animation: mymove 0.5s ;
+  animation: mymove 0.1s ;
+  -webkit-animation: mymove 0.1s ;
 }
 @keyframes mymove {
   from {height: 10px;}
-  to {height: 125px;}
+  to {height: 2000px;}
 
 }
 .active_arrow{
