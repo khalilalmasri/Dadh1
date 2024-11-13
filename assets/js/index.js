@@ -11,13 +11,13 @@ function testbtn() {
     // menuIcon.classList.add("active_arrow");
     menuIcon.classList.remove("active_menuarrow");
     // menuIcon.attributes.src.value = "assets/icons/exit.svg";
-    menuIcon.style = "opacity: 0.2;";
+    menuIcon.style = "opacity: 0.2 ; width: 25px; height: 23px;";
   } else {
     menubtn.style = "display: none; ";
     menuIcon.classList.remove("active_arrow");
     menuIcon.classList.add("active_menuarrow");
     // menuIcon.attributes.src.value = "assets/icons/menu.svg";
-    menuIcon.style = "width: 33px; height: 25px;";
+    menuIcon.style = "width: 28px; height: 23px;";
   }
 }
 // menuIcon.addEventListener("click", testbtn)

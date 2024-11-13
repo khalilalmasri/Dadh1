@@ -1,77 +1,82 @@
-
-.custom_abs{
-    top: 30%;
+.custom_abs {
+  top: 30%;
   left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .custom_abs_sm{
-    top: 25%;
-  left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .custom_abs_image_sm{
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .small_custom_abs{
-    top: 30%;
-  left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .custom_abs_ch{
-  top: 50%;
-  left: 50%;
-    transform: translate(-50%, -50%);
-}
-.custom_abs_ch_sm{
-  top: 50%;
-  left: 50%;
-    transform: translate(-50%, -50%);
-}
-.custom_abs_mudawana{
-  top: 20%;
-left: 50%;
   transform: translate(-50%, -50%);
 }
-.custom_abs_footer{
+.custom_abs_sm {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_image_sm {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.small_custom_abs {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_ch {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_ch_sm {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_mudawana {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_footer {
   top: -60%;
   left: 10%;
   /* right: 30%; */
-
 }
-.custom_abs_footersmall{
+.custom_abs_footersmall {
   top: -25%;
   /* left: -10%; */
   /* right: 30%; */
-
 }
 
-.active_menu{
-  animation: mymove 0.1s ;
-  -webkit-animation: mymove 0.1s ;
+.active_menu {
+  animation: mymove 0.1s;
+  -webkit-animation: mymove 0.1s;
 }
 @keyframes mymove {
-  from {height: 10px;}
-  to {height: 2000px;}
-
+  from {
+    height: 10px;
+  }
+  to {
+    height: 2000px;
+  }
 }
-.active_arrow{
-  animation: myarrmove 0.5s ;
-  -webkit-animation: myarrmove 0.5s ;
+.active_arrow {
+  animation: myarrmove 0.5s;
+  -webkit-animation: myarrmove 0.5s;
 }
 @keyframes myarrmove {
-  from {rotate: 90deg;}
-  to {rotate: 0deg;}
-
+  from {
+    rotate: 90deg;
+  }
+  to {
+    rotate: 0deg;
+  }
 }
 
-.active_menuarrow{
-  animation: mymenuearrmove 0.5s ;
-
+.active_menuarrow {
+  animation: mymenuearrmove 0.5s;
 }
 @keyframes mymenuearrmove {
-  from {width: 0;}
-  to {width: 33px;}
-
+  from {
+    width: 0;
+  }
+  to {
+    width: 33px;
+  }
 }

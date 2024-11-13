@@ -1,117 +1,127 @@
-
-  @font-face {
-    font-family: 'SamsungSans-Bold';
-    src: url('../../assets/fonts/SamsungSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'SamsungOne_400';
-    src: url('../../assets/fonts/SamsungOne-400.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'AbsoluteRegular';
-    src: url('../../assets/fonts/TheAbsoluteRegular.woff') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "d-ar";
-    src: url("../../assets/fonts/4_1D.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Cairo-Regular";
-    src: url("../../assets/fonts/Cairo-Regular.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "ReadexPro-VariableFont";
-    src: url("../../assets/fonts/ReadexPro-VariableFont_HEXP,wght.ttf") format("truetype");
-    font-weight: 400 ;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Cairo-VariableFont";
-    src: url("../../assets/fonts/Cairo-VariableFont_slnt,wght.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
-
-
-
-
-
-
-  .SamsungOne-400{font-family: SamsungOne_400}
-  .d_ar{font-family: d-ar}
-  .Cairo_Regular{font-family: Cairo-Regular}
-  .Cairo-VariableFont{font-family: Cairo-VariableFont}
-  .ReadexPro{font-family:ReadexPro-VariableFont}
-
-  
-  
-  .custom_abs{
-    top: 30%;
-  left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .custom_abs_ch{
-  top: 60%;
-  left: 50%;
-    transform: translate(-50%, -50%);
+@font-face {
+  font-family: "SamsungSans-Bold";
+  src: url("../../assets/fonts/SamsungSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
-.custom_abs_mudawana{
-  top: 20%;
-left: 50%;
+
+@font-face {
+  font-family: "SamsungOne_400";
+  src: url("../../assets/fonts/SamsungOne-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AbsoluteRegular";
+  src: url("../../assets/fonts/TheAbsoluteRegular.woff") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "d-ar";
+  src: url("../../assets/fonts/4_1D.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url("../../assets/fonts/Cairo-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ReadexPro-VariableFont";
+  src: url("../../assets/fonts/ReadexPro-VariableFont_HEXP,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cairo-VariableFont";
+  src: url("../../assets/fonts/Cairo-VariableFont_slnt,wght.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.SamsungOne-400 {
+  font-family: SamsungOne_400;
+}
+.d_ar {
+  font-family: d-ar;
+}
+.Cairo_Regular {
+  font-family: Cairo-Regular;
+}
+.Cairo-VariableFont {
+  font-family: Cairo-VariableFont;
+}
+.ReadexPro {
+  font-family: ReadexPro-VariableFont;
+}
+
+.custom_abs {
+  top: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
-.custom_abs_footer{
+.custom_abs_ch {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_mudawana {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom_abs_footer {
   top: -68%;
   left: 10%;
   /* right: 30%; */
-
 }
-.custom_abs_footersmall{
+.custom_abs_footersmall {
   top: 20%;
   left: 10%;
   /* right: 30%; */
-
 }
 
-.active_menu{
-  animation: mymove 0.5s ;
-  -webkit-animation: mymove 0.5s ;
+.active_menu {
+  animation: mymove 0.5s;
+  -webkit-animation: mymove 0.5s;
 }
 @keyframes mymove {
-  from {height: 10px;}
-  to {height: 125px;}
-
+  from {
+    height: 10px;
+  }
+  to {
+    height: 125px;
+  }
 }
-.active_arrow{
-  animation: myarrmove 0.5s ;
-  -webkit-animation: myarrmove 0.5s ;
+.active_arrow {
+  animation: myarrmove 0.5s;
+  -webkit-animation: myarrmove 0.5s;
 }
 @keyframes myarrmove {
-  from {rotate: 90deg;}
-  to {rotate: 0deg;}
-
+  from {
+    rotate: 90deg;
+  }
+  to {
+    rotate: 0deg;
+  }
 }
 
-.active_menuarrow{
-  animation: mymenuearrmove 0.5s ;
-
+.active_menuarrow {
+  animation: mymenuearrmove 0.5s;
 }
 @keyframes mymenuearrmove {
-  from {width: 0;}
-  to {width: 33px;}
-
+  from {
+    width: 0;
+  }
+  to {
+    width: 33px;
+  }
 }
